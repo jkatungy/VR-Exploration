@@ -1,2 +1,23 @@
-# VR-Exploration
-Working with three js
+# Augmenting VR
+## Physical Computing Project 04
+Virtual Reality is an immersion into a surreal world where the only control is the start and finish time of the VR experience. With this project, I explored augmenting the VR experience by controlling what happens to you inside the VR world. I wanted to induce Vertigo by throwing my victim off a 10 storey building!
+
+## Three js
+The VR environment is in three js - a javascript based platform for creating and editing 3 dimensional environments. A customized three js file for google glass was used as a start up. 
+### Background image
+The background image was set to an [equirectangular bird view photo](http://jasonperrone.com/2016/07/09/cocoa-water-tank-aerial-360/).
+### Three js objects
+Two 300 ft tall box towers connected by a bridge were placed within the scene on either side of the middle street. The viewer's original position was on tower A. A small stool was placed on top of tower B.
+
+## VR interaction
+While on top of tower A, the viewer can look all around at the town laid out below, to the horizon and up to the skies above. A soundtrack accompanies this exploration of the surroundings. The viewer sees tower B across the street and the connecting bridge on the right hand side from the start position. If the viewer decides to cross to tower B, they have to select the small stool on top of tower B by focusing the circular cursor on the stool. The stool lights up when it is selected and the viewer is automatically drawn along the bridge towards tower B. A appropriate 'danger' soundtrack plays when the viewer is on the bridge.
+The intention was to stop along the bridge if at all the viewer looked anywhere else other than the stool, i.e. if they deselected it. And while on the bridge, if the viewer looked down, they would be overcome by vertigo and fall to the street below! The downward motion would be triggered by a change in the phone accelerometer value. This part of the code is yet to be figured out. 
+
+## Implements
+1. dxf file of google VR box cardboard
+2. two lenses
+3. smart phone
+4. raspberry pi
+
+# Code
+The program files including the javascript file were compiled in a folder and run off the raspberry pi using the node packet manager.
