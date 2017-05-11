@@ -1,9 +1,9 @@
 # Augmenting VR
-## Physical Computing Project 04
+## Physical Computing Project 03
 Virtual Reality is an immersion into a surreal world where the only control is the start and finish time of the VR experience. With this project, I explored augmenting the VR experience by controlling what happens to you inside the VR world. I wanted to induce Vertigo by throwing my victim off a 10 storey building!
 
 ## Three js
-The VR environment is in three js - a javascript based platform for creating and editing 3 dimensional environments. A customized three js file for google glass was used as a start up. 
+For this project, the VR environment is in three js - a javascript based platform for creating and editing 3 dimensional environments. A customized three js file for google glass was used as a start up. The files were forked from the [instructor's github webpage](https://github.com/marsman12019/IDeATePhysCompProject03-Cardboard).
 ### Background image
 The background image was set to an [equirectangular bird view photo](http://jasonperrone.com/2016/07/09/cocoa-water-tank-aerial-360/).
 ### Three js objects
