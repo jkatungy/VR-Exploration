@@ -316,9 +316,9 @@ function animate() {
 		camera.position.y = currentCameraPos.y;
 		camera.position.z = currentCameraPos.z;
 
-		CursorX = (parseInt(camera.position.x) + 27);
-		CursorY = (parseInt(camera.position.y) - 4);
-		CursorZ = (parseInt(camera.position.z) - 3);
+		CursorX = (parseInt(camera.position.x) + 24);
+		CursorY = (parseInt(camera.position.y) - 1);
+		CursorZ = (parseInt(camera.position.z) - 1);
 
 		
 		
