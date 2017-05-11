@@ -42,6 +42,9 @@ Within the www file under the bin folder;
 1. the socket listens for and plays the soundtracks cued by the socket emits from the script.js file
 
 ## Images
-1. ![VR on smart phone](https://github.com/jkatungy/VR-Exploration/blob/master/VRonSmartPhone.JPG?raw=true)
-2. ![VR Box showing phone](https://github.com/jkatungy/VR-Exploration/blob/master/VRBox.JPG?raw=true)
-3. ![VR Box through the lens](https://github.com/jkatungy/VR-Exploration/blob/master/VRBox2.JPG?raw=true)
+
+1. ![VR on smart phone](https://github.com/jkatungy/VR-Exploration/blob/master/vr_images/VRonSmartPhone.JPG?raw=true)
+
+2. ![VR Box showing phone](https://github.com/jkatungy/VR-Exploration/blob/master/vr_images/VRBox.JPG?raw=true)
+
+3. ![VR Box through the lens](https://github.com/jkatungy/VR-Exploration/blob/master/vr_images/VRBox2.JPG?raw=true)
