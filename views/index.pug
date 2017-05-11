@@ -1,0 +1,33 @@
+doctype html
+html
+
+  head
+    title= title
+    meta(http-equiv='Content-Type', content='text/html; charset=utf-8')
+    meta(name='viewport', content='width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0')
+    link(rel='stylesheet', href='/stylesheets/style.css')
+
+  body
+    div#container
+
+    script(src="/socket.io/socket.io.js")
+    script.
+      var socket = io();
+      socket.on('message', function(data) { // log messages to the console
+        console.log(data);
+      });
+
+    script(src='/javascripts/threejs/three.js')
+
+    script(src='/javascripts/threejs/StereoEffect.js')
+    script(src='/javascripts/threejs/DeviceOrientationControls.js')
+    script(src='/javascripts/threejs/OrbitControls.js')
+    
+    script(src='/javascripts/threejs/MTLLoader.js')
+    script(src='/javascripts/threejs/OBJLoader.js')
+    script(src='/javascripts/threejs/OBJMTLLoader.js')
+
+    script(src='/javascripts/threejs/tween.min.js')
+    script(src='/javascripts/threejs/stats.min.js')
+
+    script(src='/javascripts/script.js')

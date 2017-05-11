@@ -1,0 +1,18 @@
+
+body {
+	margin: 0px;
+	overflow: hidden;
+}
+
+#container {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+#stats { position: absolute; top:0; left: 0; }
+#stats #fps { background: transparent !important; }
+#stats #fps #fpsText { color: #000 !important; }
+#stats #fps #fpsGraph { display: none; }
