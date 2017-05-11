@@ -19,5 +19,24 @@ The intention was to stop along the bridge if at all the viewer looked anywhere 
 3. smart phone
 4. raspberry pi
 
-# Code
+After cutting the vr box, place the two lenses, run the code by calling
+
+```
+npm install
+```
+on the raspberry pi while within the project folder. To run the code on the smart phone, make sure the phone is connected to the same network as the raspberry pi, type the raspberry pi IP address followed by the port into the phone browser.
+
+```
+https://---.---.---.---:3000
+```
+
+
+### Code
 The program files including the javascript file were compiled in a folder and run off the raspberry pi using the node packet manager.
+Within the script.js file under javascripts in the public folder
+1. The background image which had earlier been downloaded into the public/3d/textures folder, was loaded into the worldSphere Mesh texture.
+2. The buildings and bridge were created as meshes with texture
+3. When the stool is picked (under the picker function), horizontal movement is initialized and the socket emits a catchphrase which will be be used to call the soundtrack.
+4. In the animate function, the default soundtrack is called by a socket emit function. And when the stool is picked, the camera is moved along the bridge.
+Within the www file under the bin folder;
+1. the socket listens for and plays the soundtracks cued by the socket emits from the script.js file
